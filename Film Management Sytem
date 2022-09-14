@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T17:01:17.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" version="20.3.0" etag="6AToh__TqU7_C6Ht7EAc" type="github"><diagram id="7UzxCV2TncdyGaWkkrTl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T17:49:37.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="mjHnYqXhMu7ILxkD0417" version="20.3.0" type="github">
+  <diagram id="7UzxCV2TncdyGaWkkrTl" name="Sayfa -1">
+    <mxGraphModel dx="1773" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-1" value="MovieApp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-2" value="- userId: String&#xa;- userName: String&#xa;- userPassword: String&#xa;- userEmail: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=11;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-4" value="+ subscribe()&#xa;+ movieList()&#xa;+ requestMovie()&#xa;+ buyMovie()&#xa;+ rentMovie()&#xa;+ putInOrder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-1">
+          <mxGeometry y="98" width="160" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-5" value="&lt;p style=&quot;font-size: 12px; box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; font-family: Nunito, sans-serif; letter-spacing: -0.6399999856948853px; text-align: left;&quot;&gt;Online film satan veya kiralayan uygulamanın sistemini tasarlayın.&lt;/p&gt;&lt;ul style=&quot;font-size: 12px; box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; font-family: Nunito, sans-serif; letter-spacing: -0.6399999856948853px; text-align: left;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; font-size: 12px;&quot;&gt;Uygulamada filmler listelenebilir, sıralanabilir ve kullanıcılar uygulamaya abone olabilir.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; font-size: 12px;&quot;&gt;Kullanıcılar abonelik için sistem üzerinden kredi satın alır.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; font-size: 12px;&quot;&gt;Sadece abone olan kullanıcılar, kredileri ile film kiralayabilir ve kiraladığı filmin kredi bedeli kadar hesabından düşülür.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; font-size: 12px;&quot;&gt;Normal kullanıcılar ve aboneler film satın alabilirler.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; font-size: 12px;&quot;&gt;Eğer film mevcut değil ise talep edilebilir.&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;font-size: 12px; box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; font-family: Nunito, sans-serif; letter-spacing: -0.6399999856948853px; text-align: left;&quot;&gt;Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="630" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-6" value="Movie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-7" value="- filmName: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-6">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-6">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-6">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-10" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-10">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-10">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-14" value="BuyMovie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="640" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-15" value="- filmId: String&#xa;- filmPrice: int&#xa;- filmStatus: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-14">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-14">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-17" value="+ confirmTransaction()&#xa;+ cancel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-14">
+          <mxGeometry y="88" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-18" value="RentMovie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-19" value="- filmId: String&#xa;- filmPrice: int&#xa;- filmStatus: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-18">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-18">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-21" value="+ confirmTransaction()&#xa;+ cancel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-18">
+          <mxGeometry y="88" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-22" value="RequestMovie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-22">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-25" value="+ getRequestList()&#xa;+ getNotification() " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-22">
+          <mxGeometry y="34" width="160" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-26" value="Subscriber" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="640" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-27" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-26">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-26">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-29" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-26">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-30" value="StandardUser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-31" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-30">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-30">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gS_SmIPdkrgrFDyfETx6-33" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="gS_SmIPdkrgrFDyfETx6-30">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
