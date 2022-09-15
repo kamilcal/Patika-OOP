@@ -1,8 +1,9 @@
 # Patika.net Object Oriented Programming
 
-![image](https://r.resimlink.com/j2Ifd0.png)
+![image patika](https://imgyukle.com/f/2022/09/15/nsdCUp.jpg)
 
-Patika.net, Swift ile İOS Programlama Patikası eğitimi kapsamında Object Oriented Programming Bölümü ödevleri bu kısımda bulunmaktadır.
+
+Patika.net, Swift ile İOS Programlama Patikası eğitimi kapsamında **Object Oriented Programming** Bölümü ödevleri bu kısımda bulunmaktadır.
 
 Patika Profilim: https://app.patika.dev/kamilcal
 
